@@ -1,6 +1,7 @@
 public class git {
     public static void main(String[] args) {
-        mama m = new mama();
-        m.sayHello();
+        mama mama = new mama("Mama", 30);
+        mama.sayInfo();
+
     }
 }
